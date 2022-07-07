@@ -29,7 +29,7 @@ span.e {
 }
 a#head span:hover {
   color: #1b2430 !important;
-  transition: 0.2s;
+  transition: 0.2s ease-in-out;
 }
 
 div.first {
