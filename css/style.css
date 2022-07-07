@@ -31,25 +31,7 @@ span:hover {
   color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
   transition: 0.2s;
 }
-.cover {
-  padding: 2rem 1rem;
-}
-.img-size {
-  width: 15%;
-}
 
-.aman {
-  font-size: calc(1.6rem + 2.5vw);
-}
-.about {
-  background-image: url("https://cdn-icons-png.flaticon.com/512/1407/1407675.png");
-  background-repeat: no-repeat;
-  background-size: calc(15rem + 5vw);
-  background-position: center;
-}
-.about-me {
-  font-size: calc(1rem + 0.5vw);
-}
 div.first {
   margin-top: calc(5rem + 2.5vw);
   font-size: calc(2.5rem + 0.5vw) !important;
