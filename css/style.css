@@ -27,8 +27,8 @@ span.w,
 span.e {
   color: #816797;
 }
-span:hover {
-  color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+a#head span:hover {
+  color: #1b2430 !important;
   transition: 0.2s;
 }
 
