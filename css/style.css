@@ -16,7 +16,7 @@ a#head {
 }
 body {
   font-family: "Poppins", sans-serif !important;
-  background-image: linear-gradient(#212529, #2c3639) !important;
+  background-image: linear-gradient(#212529, #1b2430) !important;
   background-repeat: no-repeat;
 }
 
@@ -25,7 +25,7 @@ span.m,
 span.s,
 span.w,
 span.e {
-  color: #aa9ac1;
+  color: #816797;
 }
 span:hover {
   color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
