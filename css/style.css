@@ -1,0 +1,56 @@
+@media (min-width: 992px) {
+  .about-margin {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+a#head {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-image: linear-gradient(#212529, #2c3639) !important;
+  background-repeat: no-repeat;
+}
+
+span.a,
+span.m,
+span.s,
+span.w,
+span.e {
+  color: #aa9ac1;
+}
+span:hover {
+  color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  transition: 0.2s;
+}
+.cover {
+  padding: 2rem 1rem;
+}
+.img-size {
+  width: 15%;
+}
+
+.aman {
+  font-size: calc(1.6rem + 2.5vw);
+}
+.about {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1407/1407675.png");
+  background-repeat: no-repeat;
+  background-size: calc(15rem + 5vw);
+  background-position: center;
+}
+.about-me {
+  font-size: calc(1rem + 0.5vw);
+}
+div.first {
+  margin-top: calc(5rem + 2.5vw);
+  font-size: calc(2.5rem + 0.5vw) !important;
+}
