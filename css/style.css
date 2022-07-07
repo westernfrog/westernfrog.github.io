@@ -36,3 +36,6 @@ div.first {
   margin-top: calc(5rem + 2.5vw);
   font-size: calc(2.5rem + 0.5vw) !important;
 }
+div.mail {
+  margin-bottom: calc(9rem + 2.5vw) !important;
+}
