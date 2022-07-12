@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -11,13 +12,10 @@ app.use(
   })
 );
 
-mongoose.connect(
-  "mongodb+srv://westernfrog:Pottyboy%407483@users.r7xott4.mongodb.net/test",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect("", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 var db = mongoose.connection;
 
@@ -38,7 +36,7 @@ app.post("/", function (req, res) {
 
   db.collection("users").insertOne(data, (err, collection) => {
     if (err) {
-      throw err;
+      console.log(err);
     }
     console.log("Record Inserted Successfully");
   });
@@ -46,6 +44,6 @@ app.post("/", function (req, res) {
   return res.sendFile(__dirname + "/public/index.html");
 });
 
-app.listen(3000, function () {
+app.listen(PORT, function () {
   console.log("Server is alive");
 });

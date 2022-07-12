@@ -16,7 +16,7 @@ a#head {
 }
 body {
   font-family: "Poppins", sans-serif !important;
-  background-image: linear-gradient(#1b2430, #212529) !important;
+  background-color: #1b2430 !important;
   background-repeat: no-repeat;
 }
 
